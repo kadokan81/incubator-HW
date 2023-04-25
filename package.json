@@ -2,7 +2,7 @@
 	"name": "incubator-hw",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://kadokan81.github.io/incubator-HW/",
+	"homepage": "https://kadokan81.github.io/incubator-HW",
 	"dependencies": {
 		"@emotion/react": "11.10.4",
 		"@emotion/styled": "11.10.4",
