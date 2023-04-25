@@ -34,9 +34,12 @@
 	border-radius: 20px;
 	color: #f5f7fb;
 	padding: 10px 38px;
+	transition: all 0.5s ease-in-out;
 }
 
 .button:hover {
+	background: #024e9a;
 }
 .button:active {
+	background: #0177ec;
 }
