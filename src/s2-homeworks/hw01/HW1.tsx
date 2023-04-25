@@ -56,7 +56,13 @@ const HW1 = () => {
 			<div className={s2.hwTitle}>Homework #1</div>
 			<div className={s2.hw}>
 				{/*проверка отображения (не менять)*/}
-				<div>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						gap: '30px',
+						padding: '30px 0px',
+					}}>
 					<Message message={message0} />
 					<FriendMessage message={friendMessage0} />
 				</div>
