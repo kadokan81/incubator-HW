@@ -1,7 +1,5 @@
-import React from 'react';
 import s from './FriendMessage.module.css';
 
-import { MessagePropsType } from '../message/Message';
 import { MessageType } from '../HW1';
 
 // создать тип вместо any и отобразить приходящие данные
@@ -17,6 +15,7 @@ const FriendMessage = ({ message }: FrendMessagePropsType) => {
 				<img
 					id={'hw1-friend-avatar-' + id}
 					// создаёт студент
+					alt='user avatar'
 					src={user.avatar}
 					//
 				/>
