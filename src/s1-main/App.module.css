@@ -9,7 +9,14 @@
 }
 
 .hw {
+	padding: 32px 0;
 }
 
 .hwTitle {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	padding: 20px 0;
+
+	border-bottom: 1px solid #d9d9d9;
 }
