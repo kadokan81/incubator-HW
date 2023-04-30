@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/incubator-hm/static/css/main.2409578f.css",
-    "main.js": "/incubator-hm/static/js/main.7518da50.js",
+    "main.css": "/incubator-hm/static/css/main.c49200da.css",
+    "main.js": "/incubator-hm/static/js/main.5cc311ae.js",
     "static/js/787.5d63cb1a.chunk.js": "/incubator-hm/static/js/787.5d63cb1a.chunk.js",
     "static/media/avatar.png": "/incubator-hm/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/incubator-hm/index.html",
-    "main.2409578f.css.map": "/incubator-hm/static/css/main.2409578f.css.map",
-    "main.7518da50.js.map": "/incubator-hm/static/js/main.7518da50.js.map",
+    "main.c49200da.css.map": "/incubator-hm/static/css/main.c49200da.css.map",
+    "main.5cc311ae.js.map": "/incubator-hm/static/js/main.5cc311ae.js.map",
     "787.5d63cb1a.chunk.js.map": "/incubator-hm/static/js/787.5d63cb1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2409578f.css",
-    "static/js/main.7518da50.js"
+    "static/css/main.c49200da.css",
+    "static/js/main.5cc311ae.js"
   ]
 }
