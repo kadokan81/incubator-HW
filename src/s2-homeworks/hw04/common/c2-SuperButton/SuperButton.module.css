@@ -65,3 +65,15 @@
 	color: #002e5c;
 	cursor: default;
 }
+
+.default {
+	background: #06c;
+}
+
+.default:hover {
+	background: #0080ff;
+}
+
+.default:active {
+	background: #0059b3;
+}

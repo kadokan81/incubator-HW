@@ -1,18 +1,7 @@
 .App {
-	--header_height: 60px;
-
-	margin: 50px auto;
-
-	font-family: 'Montserrat';
-	font-style: normal;
-	max-width: 1170px;
-	display: flex;
-	flex-direction: column;
-	padding: 0 15px;
 }
 
 .hw {
-	padding: 32px 0;
 }
 
 .hwTitle {
