@@ -29,7 +29,7 @@ const HW10 = () => {
 		// setTimeout
 		setTimeout(() => {
 			dispatch({ type: 'CHANGE_LOADING', isLoading: !isLoading });
-		}, 2000);
+		}, 1500);
 	};
 
 	return (
