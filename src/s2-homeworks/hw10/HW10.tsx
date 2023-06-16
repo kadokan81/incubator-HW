@@ -17,7 +17,6 @@ const HW10 = () => {
 	// useSelector, useDispatch // пишет студент
 
 	const { isLoading } = useSelector((state: AppStoreType) => state.loading);
-	console.log('🚀 ~ file: HW10.tsx:20 ~ HW10 ~ state:', isLoading);
 
 	const dispatch = useDispatch();
 	// const isLoading = state.;
