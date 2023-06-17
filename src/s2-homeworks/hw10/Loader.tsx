@@ -20,7 +20,7 @@ export const Loader = () => (
 				</linearGradient>
 			</defs>
 
-			<g stroke-width='8'>
+			<g strokeWidth='8'>
 				<path
 					stroke='url(#spinner-secondHalf)'
 					d='M 4 100 A 96 96 0 0 1 196 100'
@@ -32,7 +32,7 @@ export const Loader = () => (
 
 				<path
 					stroke='currentColor'
-					stroke-linecap='round'
+					strokeLinecap='round'
 					d='M 4 100 A 96 96 0 0 1 4 98'
 				/>
 			</g>
@@ -43,7 +43,7 @@ export const Loader = () => (
 				attributeName='transform'
 				type='rotate'
 				repeatCount='indefinite'
-				dur='1300ms'
+				dur='1500ms'
 			/>
 		</svg>
 	</div>
