@@ -17,10 +17,6 @@ function HW11() {
     const [value2, setValue2] = useState(restoreState<number[]>('hw11-value2',[30, 100]))
    
 
-  
-
-
-
       const minDistance = 5
       const handleChange2 = (
         event: Event,
@@ -34,7 +30,7 @@ function HW11() {
         }
 
         if (newValue[1] - newValue[0] < minDistance) {
-          if (activeThumb == 0) {
+          if (activeThumb === 0) {
             const clamped = Math.min(newValue[0], 100 - minDistance);
             setValue2([clamped, clamped + minDistance]);
           } else {
