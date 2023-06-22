@@ -4,8 +4,8 @@ export const Loader = () => (
 	<div className={s.loader}>
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
-			width='108'
-			height='108'
+			width='90'
+			height='90'
 			viewBox='0 0 200 200'
 			fill='none'
 			color='#3f51b5'>

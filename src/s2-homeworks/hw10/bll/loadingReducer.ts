@@ -12,7 +12,8 @@ export const loadingReducer = (
 		case 'CHANGE_LOADING': {
 			return {
 				...state,
-				isLoading: !state.isLoading,
+				// isLoading: !state.isLoading,
+				isLoading: action.isLoading,
 			};
 		}
 

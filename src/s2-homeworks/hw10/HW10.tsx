@@ -25,10 +25,12 @@ const HW10 = () => {
 		// пишет студент // показать крутилку на 1,5 секунд
 		// dispatch
 
-		dispatch({ type: 'CHANGE_LOADING', isLoading: !isLoading });
+		//  dispatch({ type: 'CHANGE_LOADING', isLoading: !isLoading });
+		dispatch(loadingAC(true));
 		// setTimeout
 		setTimeout(() => {
-			dispatch({ type: 'CHANGE_LOADING', isLoading: !isLoading });
+			// dispatch({ type: 'CHANGE_LOADING', isLoading: !isLoading });
+			dispatch(loadingAC(false));
 		}, 1500);
 	};
 
