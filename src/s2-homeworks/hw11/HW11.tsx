@@ -27,28 +27,16 @@ function HW11() {
         newValue: number | number[],
         activeThumb: number,
       ) => {
-    
         if (!Array.isArray(newValue)) {
             setValue1(newValue as number);
-
-       
             setValue2([newValue , value2[1]])
             return
         }
-     
-    
-        if (newValue[1] - newValue[0] < minDistance) {
-            console.log("activeThumb",newValue[1] - newValue[0])
 
+        if (newValue[1] - newValue[0] < minDistance) {
           if (activeThumb == 0) {
-         
-         
             const clamped = Math.min(newValue[0], 100 - minDistance);
             setValue2([clamped, clamped + minDistance]);
-           
-           
-
-            
           } else {
             const clamped = Math.max(newValue[1], minDistance);
             setValue2([clamped - minDistance, clamped]);
