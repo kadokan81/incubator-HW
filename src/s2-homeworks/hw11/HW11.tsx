@@ -41,7 +41,7 @@ function HW11() {
             console.log("activeThumb",newValue[1] - newValue[0])
 
           if (activeThumb == 0) {
-            console.log("activeThumb",activeThumb)
+         
          
             const clamped = Math.min(newValue[0], 100 - minDistance);
             setValue2([clamped, clamped + minDistance]);
