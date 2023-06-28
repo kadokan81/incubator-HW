@@ -18,13 +18,12 @@ function Clock() {
 		// сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
 		setIsStart(false);
 
-		//@ts-ignore
-		window.myGlobalVarTimer = setInterval(() => setDate(new Date()), 1000);
+		setTimerId(+setInterval(() => setDate(new Date()), 1000));
 	};
 
 	const stop = () => {
-		//@ts-ignore
-		clearInterval(myGlobalVarTimer);
+		
+		clearInterval(timerId);
 		setIsStart(true);
 
 		// пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
