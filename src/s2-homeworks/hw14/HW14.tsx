@@ -49,6 +49,7 @@ const HW14 = () => {
     setSearchParams(value);
 
     // sendQuery(value);
+    setLoading(true);
 
     getTechs(value).then((res) => {
       //@ts-ignore
