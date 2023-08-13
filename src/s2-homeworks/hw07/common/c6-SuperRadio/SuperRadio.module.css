@@ -8,13 +8,13 @@
 }
 
 .label {
-	display: flex;
-	align-items: center;
-	gap: 13px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
 
 .options {
-	display: flex;
-	flex-direction: column;
-	gap: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }

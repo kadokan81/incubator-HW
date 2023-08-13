@@ -1,30 +1,30 @@
-import React, { FC, ReactNode, useEffect, useState } from 'react';
-import { Header } from '../header/Header';
-import { Sidebar } from '../sidebar/Sidebar';
-import s from './Layout.module.css';
+import React, { FC, ReactNode, useEffect, useState } from "react";
+import { Header } from "../header/Header";
+import { Sidebar } from "../sidebar/Sidebar";
+import s from "./Layout.module.css";
 
 type PropsType = {
-	children: ReactNode;
+  children: ReactNode;
 };
 
 export const Layout: FC<PropsType> = ({ children }) => {
-	const [open, setOpen] = useState(false);
-	const handleClose = () => setOpen(false);
-	const handleOpen = () => setOpen(true);
+  const [open, setOpen] = useState(false);
+  const handleClose = () => setOpen(false);
+  const handleOpen = () => setOpen(true);
 
-	useEffect(() => {
-		open && (document.body.style.overflow = 'hidden');
-		!open && (document.body.style.overflow = 'unset');
-	}, [open]); // отключает прокрутку при открытом меню
+  useEffect(() => {
+    open && (document.body.style.overflow = "hidden");
+    !open && (document.body.style.overflow = "unset");
+  }, [open]); // отключает прокрутку при открытом меню
 
-	return (
-		<div className={!open ? s.cover_blanket : s.cover_blanket__shadow}>
-			<Sidebar open={open} handleClose={handleClose} />
-			<Header handleOpen={handleOpen} />
-			<div className={s.frame}>
-				{/*страницы*/}
-				{children}
-			</div>
-		</div>
-	);
+  return (
+    <div className={!open ? s.cover_blanket : s.cover_blanket__shadow}>
+      <Sidebar open={open} handleClose={handleClose} />
+      <Header handleOpen={handleOpen} />
+      <div className={s.frame}>
+        {/*страницы*/}
+        {children}
+      </div>
+    </div>
+  );
 };

@@ -1,17 +1,17 @@
 .spanBlock {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
 
 .span {
-	padding: 5px;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #0080ff;
-	cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #0080ff;
+  cursor: pointer;
 }
 
 .input {

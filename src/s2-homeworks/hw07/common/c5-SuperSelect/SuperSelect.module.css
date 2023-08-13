@@ -1,6 +1,6 @@
 .select {
-	min-width: 165px;
-	padding: 2px 0 5px 10px;
+  min-width: 165px;
+  padding: 2px 0 5px 10px;
 }
 
 .select:focus {

@@ -1,13 +1,13 @@
 .page {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 .buttonsContainer {
-	display: flex;
-	align-items: center;
-	gap: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .editableSpanContainer {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }

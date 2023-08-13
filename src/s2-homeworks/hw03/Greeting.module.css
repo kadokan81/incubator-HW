@@ -2,80 +2,80 @@
 }
 
 .inputAndButtonContainer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
 }
 
 .error {
-	/* identical to box height */
-	margin-top: 9px;
-	color: #cc0000;
+  /* identical to box height */
+  margin-top: 9px;
+  color: #cc0000;
 }
 
 .input {
-	width: 372px;
-	padding: 8px 12px;
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	border: 1px solid #d1d1d1;
-	border-radius: 5px;
-	/* identical to box height */
+  width: 372px;
+  padding: 8px 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  /* identical to box height */
 
-	color: #000000;
+  color: #000000;
 }
 
 .input:focus {
-	outline: none;
+  outline: none;
 }
 
 .errorInput {
-	width: 372px;
-	padding: 8px 12px;
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
+  width: 372px;
+  padding: 8px 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 
-	border-radius: 5px;
-	/* identical to box height */
+  border-radius: 5px;
+  /* identical to box height */
 
-	color: #000000;
-	border: 1px solid #cc0000;
-	outline: none;
+  color: #000000;
+  border: 1px solid #cc0000;
+  outline: none;
 }
 
 .button {
-	padding: 8px 24px;
-	color: #fff;
-	background: #0066cc;
-	opacity: 0.7;
+  padding: 8px 24px;
+  color: #fff;
+  background: #0066cc;
+  opacity: 0.7;
 
-	border-radius: 3px;
+  border-radius: 3px;
 
-	text-transform: capitalize;
-	transition: all ease-in-out 0.3s;
+  text-transform: capitalize;
+  transition: all ease-in-out 0.3s;
 }
 
 .button:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 .button:active {
-	background: #06417d;
+  background: #06417d;
 }
 
 .button:disabled {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .text {
-	margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .greeting {

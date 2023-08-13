@@ -1,42 +1,42 @@
 .hw13 {
-	border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .buttonsContainer {
-	display: flex;
-	align-items: center;
-	gap: 24px;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .responseContainer {
-	min-height: 400px;
-	padding: 50px 0 90px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 70px;
+  min-height: 400px;
+  padding: 50px 0 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
 }
 
 .imageContainer {
-	flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .image {
 }
 
 .textContainer {
-	flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .code {
-	color: #000;
-	font-size: 30px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 500;
-	line-height: normal;
-	margin-bottom: 13px;
+  color: #000;
+  font-size: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 13px;
 }
 
 .text {
@@ -45,7 +45,7 @@
 }
 
 @media (max-width: 1250px) {
-	.responseContainer {
-		flex-direction: column;
-	}
+  .responseContainer {
+    flex-direction: column;
+  }
 }
