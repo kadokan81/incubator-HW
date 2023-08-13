@@ -31,40 +31,34 @@ const HW14 = () => {
   const [techs, setTechs] = useState<string[]>([]);
 
   const sendQuery = (value: string) => {
+    console.log("🚀 ~ file: HW14.tsx:34 ~ sendQuery ~ value:", value);
     setLoading(true);
 
-    getTechs(value)
-      .then((res) => {
-        //@ts-ignore
-        setTechs(res.data.techs);
-        setLoading(false);
-        // делает студент
-        // сохранить пришедшие данные
-        //
-      })
-      .catch((e) => {
-        console.log(e);
-      })
-      .finally(() => setLoading(false));
+    getTechs(value).then((res) => {
+      //@ts-ignore
+      setTechs(res.data.techs);
+      setLoading(false);
+      // делает студент
+      // сохранить пришедшие данные
+      //
+    });
   };
 
   const onChangeText = (value: string) => {
     setFind(value);
     setSearchParams(value);
-    setLoading(true);
-    getTechs(value)
-      .then((res) => {
-        //@ts-ignore
-        setTechs(res.data.techs);
-        setLoading(false);
-        // делает студент
-        // сохранить пришедшие данные
-        //
-      })
-      .catch((e) => {
-        console.log(e);
-      })
-      .finally(() => setLoading(false));
+
+    // sendQuery(value);
+
+    getTechs(value).then((res) => {
+      //@ts-ignore
+      setTechs(res.data.techs);
+      setLoading(false);
+      // делает студент
+      // сохранить пришедшие данные
+      //
+    });
+
     // делает студент
 
     // добавить/заменить значение в квери урла
