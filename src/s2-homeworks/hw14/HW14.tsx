@@ -31,7 +31,6 @@ const HW14 = () => {
   const [techs, setTechs] = useState<string[]>([]);
 
   const sendQuery = (value: string) => {
-    console.log("🚀 ~ file: HW14.tsx:34 ~ sendQuery ~ value:", value);
     setLoading(true);
 
     getTechs(value).then((res) => {
@@ -46,19 +45,7 @@ const HW14 = () => {
 
   const onChangeText = (value: string) => {
     setFind(value);
-    setSearchParams(value);
-
-    // sendQuery(value);
-    setLoading(true);
-
-    getTechs(value).then((res) => {
-      //@ts-ignore
-      setTechs(res.data.techs);
-      setLoading(false);
-      // делает студент
-      // сохранить пришедшие данные
-      //
-    });
+    setSearchParams({ find: value });
 
     // делает студент
 
@@ -70,6 +57,7 @@ const HW14 = () => {
 
   useEffect(() => {
     const params = Object.fromEntries(searchParams);
+
     sendQuery(params.find || "");
     setFind(params.find || "");
   }, []);
