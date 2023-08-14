@@ -1,5 +1,25 @@
+.hw14{
+   min-height: 400px;
+
+}
+
+.debounceInput{
+    min-width: 468px;
+    display: block;
+    margin: 20px 0 ;
+}
+
+.listBlock{
+ 
+    max-width: 468px;
+    position: relative;
+
+}
 .tech {
 }
 
 .loading {
+    position: absolute;
+    right: 0;
+    top: 50px;
 }

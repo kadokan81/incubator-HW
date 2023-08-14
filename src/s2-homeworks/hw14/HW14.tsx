@@ -69,19 +69,21 @@ const HW14 = () => {
   ));
 
   return (
-    <div id={"hw14"}>
+    <div id={"hw14"} className={s.hw14}>
       <div className={s2.hwTitle}>Homework #14</div>
 
-      <div className={s2.hw}>
-        <SuperDebouncedInput
-          id={"hw14-super-debounced-input"}
-          value={find}
-          onChangeText={onChangeText}
-          onDebouncedChange={sendQuery}
-        />
-
-        <div id={"hw14-loading"} className={s.loading}>
-          {isLoading ? "...ищем" : <br />}
+      <div>
+        <div className={s.listBlock}>
+          <SuperDebouncedInput
+            className={s.debounceInput}
+            id={"hw14-super-debounced-input"}
+            value={find}
+            onChangeText={onChangeText}
+            onDebouncedChange={sendQuery}
+          />
+          <div id={"hw14-loading"} className={s.loading}>
+            {isLoading ? "...ищем" : <br />}
+          </div>
         </div>
 
         {mappedTechs.length ? mappedTechs : <p>No result</p>}
