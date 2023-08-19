@@ -3,6 +3,7 @@
 
 .hw {
   padding-top: 32px;
+  position: relative;
 }
 
 .hwTitle {
